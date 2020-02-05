@@ -1,0 +1,119 @@
+
+1.The code stubs in your editor declare a Solution class and a main method. 
+Complete the main method by copying the two lines of code below and 
+pasting them inside the body of your main method.
+
+System.out.println("Hello, World.");
+System.out.println("Hello, Java.");
+
+public class Solution {
+
+    public static void main(String[] args) {
+        
+           System.out.println("Hello, World.");
+           System.out.println("Hello, Java.");
+
+    }
+}
+
+  output:
+   Hello, World.
+   Hello, Java.
+
+
+
+
+
+
+2.
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        int a = scan.nextInt();
+        System.out.println(a);
+        int b = scan.nextInt();
+        System.out.println(b);
+        int c = scan.nextInt();
+        System.out.println(c);
+    
+    
+    }
+}
+
+
+
+Output:
+30
+45
+46
+
+
+
+
+
+
+
+3.
+import java.io.*;
+import java.math.*;
+import java.security.*;
+import java.text.*;
+import java.util.*;
+import java.util.concurrent.*;
+import java.util.regex.*;
+
+public class Solution {
+
+
+
+    private static final Scanner scanner = new Scanner(System.in);
+
+    public static void main(String[] args) {
+        int N = scanner.nextInt();
+        scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
+        if(N%2==1 || (N%2==0) && (N>=6 && N<=20) ){
+                System.out.println("Weird");
+            }
+            else{
+              if((N%2==0) && (N>=2 && N<=5) || (N>20)){
+                 System.out.println("Not Weird");
+                }
+
+        scanner.close();
+    }
+}
+
+output:
+3 wired 
+24 Not Wired
+
+
+
+4.
+
+import java.util.Scanner;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        int i = scan.nextInt();
+        
+        double d = scan.nextDouble();
+        scan.nextLine();
+        String s = scan.nextLine();
+
+        
+        System.out.println("String: " + s);
+        System.out.println("Double: " + d);
+        System.out.println("Int: " + i);
+    }
+}
+
+output:
+welcome to hacker rank
+43.5
+4
